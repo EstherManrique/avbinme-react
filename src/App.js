@@ -1,15 +1,27 @@
+import Footer from "./components/Footer/Footer";
+import NavBar from "./components/MainNav/NavBar";
+import { Switch, Route, Router } from "react-router-dom";
+import { createBrowserHistory } from "history";
+import Home from "./components/Pages/Home";
 
-import './App.css';
+const browserHistory = createBrowserHistory();
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">        
-        <p>
-          Iniciando la migración de Avaluos de Bienes Inmuebles Maquinaria y Equipo a React.
-        </p>
-      </header>
-    </div>
+    <Router history={browserHistory}>
+      <NavBar />
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+
+      </Switch>
+
+      <Footer />
+    </Router>
+
+
   );
 }
 

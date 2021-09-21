@@ -50,19 +50,22 @@ header.header {
 
   .menu {
     position: fixed;
-    left: 0;
+    top: 5.8rem;
+    right: -100%;
     width: 100%;
     height: 100%;
     background-color: $gray-soft;
-    opacity: 0;
     pointer-events: none;
-    transition: opacity 0.75s ease;
+    transition: all 0.75s ease;
 
+    @media screen and (min-width: $tablet-BP) {
+      top: 7rem;
+    }
     @media screen and (min-width: $desktop-BP) {
       background-color: $gray-soft-1;
       position: static;
       height: auto;
-      opacity: 1;
+      right: auto;
       pointer-events: auto;
     }
 
@@ -113,7 +116,7 @@ header.header {
           font-size: 2rem;
         }
       }
-/*       a:hover {
+      /*       a:hover {
         border-bottom: 1px solid red;
         transition: all 0.5s ease;
       } */
@@ -121,12 +124,7 @@ header.header {
   }
 
   .menu.is-active {
-    opacity: 1;
+    right: 0;
     pointer-events: auto;
-    margin-top: 5.8rem;
-
-    @media screen and (min-width: $tablet-BP) {
-      margin-top: 7rem;
-    }
   }
 }
