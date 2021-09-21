@@ -6,7 +6,6 @@ import Home from "./components/Pages/Home";
 
 const browserHistory = createBrowserHistory();
 
-
 function App() {
   return (
     <Router history={browserHistory}>
@@ -15,13 +14,10 @@ function App() {
         <Route exact path="/">
           <Home />
         </Route>
-
       </Switch>
 
       <Footer />
     </Router>
-
-
   );
 }
 
