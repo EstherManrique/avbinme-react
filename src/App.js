@@ -3,8 +3,8 @@ import NavBar from "./components/MainNav/NavBar";
 import { Switch, Route, Router } from "react-router-dom";
 import { createBrowserHistory } from "history";
 import Home from "./components/Pages/Home";
-import WeContent from "./components/WeContent/WeContent";
-import WeCards from "./components/WeCards/WeCards";
+import We from "./components/Pages/We";
+
 
 const browserHistory = createBrowserHistory();
 
@@ -19,8 +19,7 @@ function App() {
       </Switch>
       <Switch>
         <Route exact path="/nosotros">
-          <WeContent />
-          <WeCards />
+          <We />
         </Route>
       </Switch>
 
