@@ -5,6 +5,7 @@ import { createBrowserHistory } from "history";
 import Home from "./components/Pages/Home";
 import We from "./components/Pages/We";
 import Contact from "./components/Pages/Contact";
+import Services from "./components/Pages/Services";
 
 
 
@@ -28,6 +29,11 @@ function App() {
       <Switch>
         <Route exact path="/contacto">
           <Contact />
+        </Route>
+      </Switch>
+      <Switch>
+        <Route exact path="/servicios">
+          <Services />
         </Route>
       </Switch>
 

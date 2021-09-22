@@ -31,7 +31,7 @@ const NavBar = () => {
         <div className="logo">
           <Link to="/">
             <img
-              src={process.env.PUBLIC_URL + '/assets/images/Logo_Web_Positivo.svg'}
+              src={process.env.PUBLIC_URL + "/assets/images/Logo_Web_Positivo.svg"}
               alt="Logotipo AvBIME"
             />
           </Link>
