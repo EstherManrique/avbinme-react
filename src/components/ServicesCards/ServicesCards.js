@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { Link } from "react-router-dom";
 
 const ServicesCards = () => {
   return (
@@ -20,10 +21,8 @@ const ServicesCards = () => {
                   propósito{" "}
                 </p>
                 <div className="card-button">
-                  <button>
-                    <a data-modal-id="inmuebles" href="#inmuebles">
-                      LEER MÁS
-                    </a>
+                  <button data-modal-id="inmuebles">
+                    <Link to="#inmuebles">LEER MÁS</Link>
                   </button>
                 </div>
               </div>
@@ -31,7 +30,10 @@ const ServicesCards = () => {
             <div className="card-services">
               <div className="card-image">
                 <img
-                  src={process.env.PUBLIC_URL + "/assets/images/maquinaria_equipo.jpg"}
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/assets/images/maquinaria_equipo.jpg"
+                  }
                   alt="Imagen de Maquinaria y Equipo"
                 />
               </div>
@@ -42,13 +44,8 @@ const ServicesCards = () => {
                   Recusandae, officiis.
                 </p>
                 <div className="card-button">
-                  <button>
-                    <a
-                      data-modal-id="maquinaria-y-equipo"
-                      href="#maquinaria-y-equipo"
-                    >
-                      LEER MÁS
-                    </a>
+                  <button data-modal-id="maquinaria-y-equipo">
+                    <Link to="#maquinaria-y-equipo">LEER MÁS</Link>
                   </button>
                 </div>
               </div>
@@ -56,7 +53,9 @@ const ServicesCards = () => {
             <div className="card-services">
               <div className="card-image">
                 <img
-                  src={process.env.PUBLIC_URL + "/assets/images/opinion_valor.jpg"}
+                  src={
+                    process.env.PUBLIC_URL + "/assets/images/opinion_valor.jpg"
+                  }
                   alt="Imagen de Opinión de Valor"
                 />
               </div>
@@ -67,13 +66,12 @@ const ServicesCards = () => {
                   Recusandae, officiis.
                 </p>
                 <div className="card-button">
-                  <button>
-                    <a
-                      data-modal-id="opinion-de-valor"
-                      href="#opinion-de-valor"
+                  <button data-modal-id="opinion-de-valor">
+                    <Link
+                      to="#opinion-de-valor"
                     >
                       LEER MÁS
-                    </a>
+                    </Link>
                   </button>
                 </div>
               </div>
@@ -81,7 +79,10 @@ const ServicesCards = () => {
             <div className="card-services">
               <div className="card-image">
                 <img
-                  src={process.env.PUBLIC_URL + "/assets/images/justipreciación_rentas.jpg"}
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/assets/images/justipreciación_rentas.jpg"
+                  }
                   alt="Imagen de Justipreciación
               de Rentas"
                 />
@@ -93,13 +94,12 @@ const ServicesCards = () => {
                   Recusandae, officiis.
                 </p>
                 <div className="card-button">
-                  <button>
-                    <a
-                      data-modal-id="justipreciacion-de-rentas"
-                      href="#justipreciacion-de-rentas"
+                  <button data-modal-id="justipreciacion-de-rentas">
+                    <Link
+                      to="#justipreciacion-de-rentas"
                     >
                       LEER MÁS
-                    </a>
+                    </Link>
                   </button>
                 </div>
               </div>
@@ -107,7 +107,9 @@ const ServicesCards = () => {
             <div className="card-services">
               <div className="card-image">
                 <img
-                  src={process.env.PUBLIC_URL + "/assets/images/avaluo_maestro.jpg"}
+                  src={
+                    process.env.PUBLIC_URL + "/assets/images/avaluo_maestro.jpg"
+                  }
                   alt="Imagen de Avalúo Maestro"
                 />
               </div>
@@ -118,10 +120,10 @@ const ServicesCards = () => {
                   Recusandae, officiis.
                 </p>
                 <div className="card-button">
-                  <button>
-                    <a data-modal-id="avaluo-maestro" href="#avaluo-maestro">
+                  <button data-modal-id="avaluo-maestro">
+                    <Link to="#avaluo-maestro">
                       LEER MÁS
-                    </a>
+                    </Link>
                   </button>
                 </div>
               </div>
@@ -129,24 +131,28 @@ const ServicesCards = () => {
             <div className="card-services">
               <div className="card-image">
                 <img
-                  src={process.env.PUBLIC_URL + "/assets/images/regimen_propiedad_condominio.jpg"}
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/assets/images/regimen_propiedad_condominio.jpg"
+                  }
                   alt="Imagen de Régimen de Propiedad en Condominio"
                 />
               </div>
               <div className="card-info">
-                <h2 className="card-title">Régimen de Propiedad en Condominio</h2>
+                <h2 className="card-title">
+                  Régimen de Propiedad en Condominio
+                </h2>
                 <p className="card-paragraph">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Recusandae, officiis.
                 </p>
                 <div className="card-button">
-                  <button>
-                    <a
-                      data-modal-id="regimen-de-propiedad-en-condominio"
-                      href="#regimen-de-propiedad-en-condominio"
+                  <button data-modal-id="regimen-de-propiedad-en-condominio">
+                    <Link
+                      to="#regimen-de-propiedad-en-condominio"
                     >
                       LEER MÁS
-                    </a>
+                    </Link>
                   </button>
                 </div>
               </div>
@@ -154,7 +160,10 @@ const ServicesCards = () => {
             <div className="card-services">
               <div className="card-image">
                 <img
-                  src={process.env.PUBLIC_URL + "/assets/images/negocios_en_marcha.jpg"}
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/assets/images/negocios_en_marcha.jpg"
+                  }
                   alt="Imagen de Negocios en Marcha"
                 />
               </div>
@@ -165,13 +174,12 @@ const ServicesCards = () => {
                   Recusandae, officiis.
                 </p>
                 <div className="card-button">
-                  <button>
-                    <a
-                      data-modal-id="negocios-en-marcha"
-                      href="#negocios-en-marcha"
+                  <button data-modal-id="negocios-en-marcha">
+                    <Link
+                      to="#negocios-en-marcha"
                     >
                       LEER MÁS
-                    </a>
+                    </Link>
                   </button>
                 </div>
               </div>
@@ -179,7 +187,9 @@ const ServicesCards = () => {
             <div className="card-services">
               <div className="card-image">
                 <img
-                  src={process.env.PUBLIC_URL + "/assets/images/evaluación_PI.jpg"}
+                  src={
+                    process.env.PUBLIC_URL + "/assets/images/evaluación_PI.jpg"
+                  }
                   alt="Imagen de Evaluación de Proyectos Inmobiliarios"
                 />
               </div>
@@ -192,13 +202,12 @@ const ServicesCards = () => {
                   Recusandae, officiis.
                 </p>
                 <div className="card-button">
-                  <button>
-                    <a
-                      data-modal-id="evaluacion-de-proyectos-inmobliarios"
-                      href="#evaluacion-de-proyectos-inmobliarios"
+                  <button data-modal-id="evaluacion-de-proyectos-inmobliarios">
+                    <Link
+                      to="#evaluacion-de-proyectos-inmobliarios"
                     >
                       LEER MÁS
-                    </a>
+                    </Link>
                   </button>
                 </div>
               </div>
@@ -206,7 +215,10 @@ const ServicesCards = () => {
             <div className="card-services">
               <div className="card-image">
                 <img
-                  src={process.env.PUBLIC_URL + "/assets/images/estudios_factibilidad.jpg"}
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/assets/images/estudios_factibilidad.jpg"
+                  }
                   alt="Imagen de Estudios de Factibilidad"
                 />
               </div>
@@ -217,13 +229,12 @@ const ServicesCards = () => {
                   Recusandae, officiis.
                 </p>
                 <div className="card-button">
-                  <button>
-                    <a
-                      data-modal-id="estudios-de-factibilidad"
-                      href="#estudios-de-factibilidad"
+                  <button data-modal-id="estudios-de-factibilidad">
+                    <Link
+                      to="#estudios-de-factibilidad"
                     >
                       LEER MÁS
-                    </a>
+                    </Link>
                   </button>
                 </div>
               </div>
@@ -231,24 +242,28 @@ const ServicesCards = () => {
             <div className="card-services">
               <div className="card-image">
                 <img
-                  src={process.env.PUBLIC_URL + "/assets/images/analisis_inversión_inmobiliaria.jpg"}
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/assets/images/analisis_inversión_inmobiliaria.jpg"
+                  }
                   alt="Imagen de Análisis de Inversión Inmobiliaria"
                 />
               </div>
               <div className="card-info">
-                <h2 className="card-title">Análisis de Inversión Inmobiliaria</h2>
+                <h2 className="card-title">
+                  Análisis de Inversión Inmobiliaria
+                </h2>
                 <p className="card-paragraph">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Recusandae, officiis.
                 </p>
                 <div className="card-button">
-                  <button>
-                    <a
-                      data-modal-id="analisis-de-inversion-inmobiliaria"
-                      href="#analisis-de-inversion-inmobiliaria"
+                  <button data-modal-id="analisis-de-inversion-inmobiliaria">
+                    <Link
+                      to="#analisis-de-inversion-inmobiliaria"
                     >
                       LEER MÁS
-                    </a>
+                    </Link>
                   </button>
                 </div>
               </div>
@@ -256,24 +271,28 @@ const ServicesCards = () => {
             <div className="card-services">
               <div className="card-image">
                 <img
-                  src={process.env.PUBLIC_URL + "/assets/images/reespresión_edos_financieros.jpg"}
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/assets/images/reespresión_edos_financieros.jpg"
+                  }
                   alt="Imagen de Reespresión de Estados Financieros"
                 />
               </div>
               <div className="card-info">
-                <h2 className="card-title">Reexpresión de Estados Financieros</h2>
+                <h2 className="card-title">
+                  Reexpresión de Estados Financieros
+                </h2>
                 <p className="card-paragraph">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Recusandae, officiis.
                 </p>
                 <div className="card-button">
-                  <button>
-                    <a
-                      data-modal-id="reexpresion-de-estados-financieros"
-                      href="#reexpresion-de-estados-financieros"
+                  <button data-modal-id="reexpresion-de-estados-financieros">
+                    <Link
+                      to="#reexpresion-de-estados-financieros"
                     >
                       LEER MÁS
-                    </a>
+                    </Link>
                   </button>
                 </div>
               </div>

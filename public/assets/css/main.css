@@ -549,7 +549,7 @@ header.header {
           header.header .menu .menu-nav li {
             padding: 0 0 0 2rem; } }
       header.header .menu .menu-nav a {
-        padding: 2rem 0;
+        padding: 1rem 0;
         font-size: 2rem;
         font-weight: bold;
         text-align: center;
