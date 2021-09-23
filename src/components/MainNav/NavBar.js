@@ -68,19 +68,19 @@ const NavBar = () => {
         <nav className="menu">
           <ul className="menu-nav">
             <li>
-              <Link to="/">INICIO</Link>
+              <Link to="/" className="hvr-underline-from-center">INICIO</Link>
             </li>
             <li>
-              <Link to="/nosotros">NOSOTROS</Link>
+              <Link to="/nosotros" className="hvr-underline-from-center">NOSOTROS</Link>
             </li>
             <li>
-              <Link to="/servicios">SERVICIOS</Link>
+              <Link to="/servicios" className="hvr-underline-from-center">SERVICIOS</Link>
             </li>
             <li>
-              <Link to="/certificaciones">CERTIFICACIONES</Link>
+              <Link to="/certificaciones" className="hvr-underline-from-center">CERTIFICACIONES</Link>
             </li>
             <li>
-              <Link to="/contacto">CONTACTO</Link>
+              <Link to="/contacto" className="hvr-underline-from-center">CONTACTO</Link>
             </li>
           </ul>
         </nav>
