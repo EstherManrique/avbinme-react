@@ -549,7 +549,7 @@ header.header {
           header.header .menu .menu-nav li {
             padding: 0 0 0 2rem; } }
       header.header .menu .menu-nav a {
-        padding: 2rem 0;
+        padding: 1rem 0;
         font-size: 2rem;
         font-weight: bold;
         text-align: center;
@@ -566,7 +566,21 @@ header.header {
     pointer-events: auto; }
 
 div.main-subtitle {
-  padding: 2rem 0; }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 0;
+  /* hr {
+    width: 8rem;
+    height: 0.25rem;
+    background-color: $wine;
+
+    @media screen and (min-width: $tablet-BP) {
+      width: 12rem;
+      height: 0.4rem;
+    }
+  } */ }
   div.main-subtitle h2 {
     font-size: 2.4rem;
     margin: 0;
@@ -577,14 +591,20 @@ div.main-subtitle {
     @media screen and (min-width: 1024px) {
       div.main-subtitle h2 {
         font-size: 4rem; } }
-  div.main-subtitle hr {
-    width: 8rem;
-    height: 0.25rem;
-    background-color: #7d4039; }
+  div.main-subtitle .line-title {
+    display: block;
+    width: 10rem;
+    height: 0.4rem;
+    background: url("../icons/title-line_1.svg") no-repeat center;
+    background-size: cover; }
     @media screen and (min-width: 768px) {
-      div.main-subtitle hr {
-        width: 12rem;
-        height: 0.4rem; } }
+      div.main-subtitle .line-title {
+        width: 15rem;
+        height: 0.5rem; } }
+    @media screen and (min-width: 1024px) {
+      div.main-subtitle .line-title {
+        width: 15rem;
+        height: 0.6rem; } }
 
 footer.footer {
   background-color: #7d4039;
@@ -1132,17 +1152,24 @@ section.content-contact {
   @media screen and (min-width: 768px) {
     section.content-contact .container .contact-info {
       margin: 3.6rem auto; } }
+  @media screen and (min-width: 1024px) {
+    section.content-contact .container .contact-info {
+      margin: 1rem auto 0.2rem; } }
   section.content-contact .container .contact-info .contact {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 1rem 0;
-    margin-bottom: 0.7rem; }
+    margin-bottom: 0.95rem; }
     @media screen and (min-width: 768px) {
       section.content-contact .container .contact-info .contact {
         flex-direction: row;
         padding: 1rem;
-        margin-bottom: 1rem; } }
+        margin-bottom: 1.25rem; } }
+    @media screen and (min-width: 1024px) {
+      section.content-contact .container .contact-info .contact {
+        padding: 0;
+        margin-bottom: 0; } }
     @media screen and (min-width: 768px) {
       section.content-contact .container .contact-info .contact span {
         margin-right: 3rem;
