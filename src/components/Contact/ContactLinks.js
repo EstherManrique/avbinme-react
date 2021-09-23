@@ -99,7 +99,9 @@ const ContactLinks = () => {
               </Link>
             </div>
           </div>
-          <div className="text-circle"></div>
+          <div className="text-circle">
+          <img src={process.env.PUBLIC_URL + "/assets/icons/circle-text.svg"} alt="Imagen del texto en círculo" />
+          </div>
         </div>
       </section>
     </Fragment>
