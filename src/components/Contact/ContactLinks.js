@@ -14,7 +14,8 @@ const ContactLinks = () => {
           aria-label="Título de la página Contacto"
         >
           <h2>CONTÁCTANOS</h2>
-          <hr />
+          {/* <hr /> */}
+          <span className="line-title"></span>
         </div>
         <div className="container">
           <div className="contact-info">
