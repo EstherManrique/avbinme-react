@@ -394,6 +394,38 @@ template {
 [hidden] {
   display: none; }
 
+@keyframes move {
+  0% {
+    transform: translateY(0); }
+  100% {
+    transform: translateY(-1rem); } }
+@media screen and (min-width: 1024px) {
+  .hvr-underline-from-center {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    padding: 15px 0; }
+    .hvr-underline-from-center:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      left: 51%;
+      right: 51%;
+      bottom: 5px;
+      background: #7d4039;
+      height: 4px;
+      -webkit-transition-property: left, right;
+      transition-property: left, right;
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-timing-function: ease-out;
+      transition-timing-function: ease-out; }
+    .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+      left: 0;
+      right: 0; } }
 h1 {
   font-size: 2rem; }
   @media screen and (min-width: 768px) {
@@ -583,9 +615,22 @@ footer.footer {
   @media screen and (min-width: 1024px) {
     footer.footer .footer-contact {
       padding-left: 5rem; } }
+  footer.footer .footer-contact .footer-links {
+    margin: 0.5rem auto;
+    font-size: 0.8rem; }
+    @media screen and (min-width: 768px) {
+      footer.footer .footer-contact .footer-links {
+        margin: 0.6rem auto;
+        font-size: 1.5rem; } }
+    @media screen and (min-width: 1024px) {
+      footer.footer .footer-contact .footer-links {
+        margin: 0.8rem auto; } }
+    footer.footer .footer-contact .footer-links a {
+      text-decoration: none;
+      color: #ffffff; }
   footer.footer .footer-contact h5 {
     font-size: 0.8rem;
-    margin: 0.3rem auto; }
+    margin: 0.5rem auto; }
     @media screen and (min-width: 768px) {
       footer.footer .footer-contact h5 {
         font-size: 1.5rem;
@@ -1071,44 +1116,39 @@ section.content-certifications div.acordion {
       section.content-certifications div.acordion .block.active .content-acordion {
         height: 20rem; } }
 
-@media screen and (min-width: 768px) {
-  section.content-contact .container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center; } }
-@media screen and (min-width: 1024px) {
-  section.content-contact .container {
-    flex-direction: row;
-    align-items: center; } }
-section.content-contact .container .contact-info .contact {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1rem 0; }
+section.content-contact {
+  position: relative;
+  overflow: hidden; }
   @media screen and (min-width: 768px) {
-    section.content-contact .container .contact-info .contact {
+    section.content-contact .container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center; } }
+  @media screen and (min-width: 1024px) {
+    section.content-contact .container {
       flex-direction: row;
-      padding: 1rem; } }
-  section.content-contact .container .contact-info .contact span {
-    /*           &.icon-phone {
-      background-image: url("../icons/phone.svg");
-    }
-    &.icon-cel-phone {
-      background-image: url("../icons/cel-phone.svg");
-    }
-    &.icon-email {
-      background-image: url("../icons/email.svg");
-    }
-    &.icon-linkedin {
-      background-image: url("../icons/linkedin.svg");
-    } */ }
+      align-items: center; } }
+  @media screen and (min-width: 768px) {
+    section.content-contact .container .contact-info {
+      margin: 3.6rem auto; } }
+  section.content-contact .container .contact-info .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+    margin-bottom: 0.7rem; }
+    @media screen and (min-width: 768px) {
+      section.content-contact .container .contact-info .contact {
+        flex-direction: row;
+        padding: 1rem;
+        margin-bottom: 1rem; } }
     @media screen and (min-width: 768px) {
       section.content-contact .container .contact-info .contact span {
         margin-right: 3rem;
         padding: 2.5rem; } }
     section.content-contact .container .contact-info .contact span svg {
-      width: 3rem;
+      width: 2.5rem;
       height: auto;
       padding-bottom: 1rem; }
       @media screen and (min-width: 768px) {
@@ -1117,22 +1157,46 @@ section.content-contact .container .contact-info .contact {
       @media screen and (min-width: 1024px) {
         section.content-contact .container .contact-info .contact span svg {
           width: 5rem; } }
-  section.content-contact .container .contact-info .contact a {
-    text-decoration: none;
-    font-size: 1.8rem;
-    color: #000000; }
-    @media screen and (min-width: 768px) {
-      section.content-contact .container .contact-info .contact a {
-        font-size: 2.5rem; } }
-    @media screen and (min-width: 1024px) {
-      section.content-contact .container .contact-info .contact a {
-        font-size: 3rem; } }
-@media screen and (min-width: 768px) {
+    section.content-contact .container .contact-info .contact a {
+      text-decoration: none;
+      font-size: 1.6rem;
+      color: #000000; }
+      @media screen and (min-width: 768px) {
+        section.content-contact .container .contact-info .contact a {
+          font-size: 2.5rem; } }
+      @media screen and (min-width: 1024px) {
+        section.content-contact .container .contact-info .contact a {
+          font-size: 3rem; } }
   section.content-contact .text-circle {
-    width: 25rem;
-    height: 25rem;
-    margin: 3rem auto;
-    border: 1px solid red;
-    border-radius: 50%; } }
+    background: url("../../assets/icons/circle-text.svg") no-repeat center;
+    background-size: cover;
+    width: 15rem;
+    height: 15rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -7.5rem;
+    margin: auto;
+    content: "";
+    opacity: 0.5;
+    animation-name: rotation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; }
+    @media screen and (min-width: 768px) {
+      section.content-contact .text-circle {
+        width: 25rem;
+        height: 25rem;
+        right: -12.5rem; } }
+    @media screen and (min-width: 1024px) {
+      section.content-contact .text-circle {
+        width: 35rem;
+        height: 35rem;
+        right: -17.5rem; } }
+@keyframes rotation {
+  0% {
+    transform: rotate(360deg); }
+  100% {
+    transform: rotate(0deg); } }
 
 /*# sourceMappingURL=main.css.map */
