@@ -15,31 +15,12 @@ function App() {
     <Router history={browserHistory}>
       <NavBar />
       <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/nosotros" component={We} />
+        <Route exact path="/contacto" component={Contact} />
+        <Route exact path="/servicios" component={Services} />
+        <Route exact path="/certificaciones" component={Certifications} />
       </Switch>
-      <Switch>
-        <Route exact path="/nosotros">
-          <We />
-        </Route>
-      </Switch>
-      <Switch>
-        <Route exact path="/contacto">
-          <Contact />
-        </Route>
-      </Switch>
-      <Switch>
-        <Route exact path="/servicios">
-          <Services />
-        </Route>
-      </Switch>
-      <Switch>
-        <Route exact path="/certificaciones">
-          <Certifications />
-        </Route>
-      </Switch>
-
       <Footer />
     </Router>
   );
