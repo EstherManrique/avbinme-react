@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/avbinme-react/static/js/main.57b524bd.chunk.js",
-    "main.js.map": "/avbinme-react/static/js/main.57b524bd.chunk.js.map",
+    "main.js": "/avbinme-react/static/js/main.ac8fe806.chunk.js",
+    "main.js.map": "/avbinme-react/static/js/main.ac8fe806.chunk.js.map",
     "runtime-main.js": "/avbinme-react/static/js/runtime-main.bf28e76d.js",
     "runtime-main.js.map": "/avbinme-react/static/js/runtime-main.bf28e76d.js.map",
     "static/js/2.cc5748d3.chunk.js": "/avbinme-react/static/js/2.cc5748d3.chunk.js",
@@ -14,6 +14,6 @@
   "entrypoints": [
     "static/js/runtime-main.bf28e76d.js",
     "static/js/2.cc5748d3.chunk.js",
-    "static/js/main.57b524bd.chunk.js"
+    "static/js/main.ac8fe806.chunk.js"
   ]
 }
