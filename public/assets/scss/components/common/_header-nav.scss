@@ -116,10 +116,14 @@ header.header {
           font-size: 2rem;
         }
       }
-      /*       a:hover {
-        border-bottom: 1px solid red;
-        transition: all 0.5s ease;
-      } */
+      .active {
+        border-bottom: 2.5px solid $wine;
+
+        @media screen and (min-width: $tablet-BP) {
+          color: $dark;
+          border: none;
+        }
+      }
     }
   }
 

@@ -1,5 +1,5 @@
 import React, { Fragment, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const menuToggle = () => {
   const $btnMenu = document.querySelector(".menu-btn"),
@@ -68,19 +68,19 @@ const NavBar = () => {
         <nav className="menu">
           <ul className="menu-nav">
             <li>
-              <Link to="/" className="hvr-underline-from-center">INICIO</Link>
+              <NavLink exact to="/" className="hvr-underline-from-center" activeClassName="active">INICIO</NavLink>
             </li>
             <li>
-              <Link to="/nosotros" className="hvr-underline-from-center">NOSOTROS</Link>
+              <NavLink exact to="/nosotros" className="hvr-underline-from-center">NOSOTROS</NavLink>
             </li>
             <li>
-              <Link to="/servicios" className="hvr-underline-from-center">SERVICIOS</Link>
+              <NavLink exact to="/servicios" className="hvr-underline-from-center">SERVICIOS</NavLink>
             </li>
             <li>
-              <Link to="/certificaciones" className="hvr-underline-from-center">CERTIFICACIONES</Link>
+              <NavLink exact to="/certificaciones" className="hvr-underline-from-center">CERTIFICACIONES</NavLink>
             </li>
             <li>
-              <Link to="/contacto" className="hvr-underline-from-center">CONTACTO</Link>
+              <NavLink exact to="/contacto" className="hvr-underline-from-center">CONTACTO</NavLink>
             </li>
           </ul>
         </nav>
