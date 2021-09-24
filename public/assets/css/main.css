@@ -475,7 +475,8 @@ header.header {
   top: 0;
   z-index: 999;
   width: 100%;
-  background-color: #f2f2f2; }
+  background-color: #f2f2f2;
+  /* ******************** */ }
   @media screen and (min-width: 768px) {
     header.header {
       padding: 1.25rem 4rem; } }
@@ -491,16 +492,46 @@ header.header {
     @media screen and (min-width: 1024px) {
       header.header .logo img {
         width: 10rem; } }
-  header.header .menu-btn {
-    width: auto;
-    height: auto;
-    border: none;
-    background: none; }
-    @media screen and (min-width: 1024px) {
-      header.header .menu-btn {
-        display: none; } }
-    header.header .menu-btn .none {
-      display: none; }
+  header.header .burger-icon {
+    display: flex;
+    align-items: center; }
+    header.header .burger-icon .nav-burger {
+      width: 32px;
+      height: 23px;
+      transform: rotate(0deg);
+      transition: 0.5s ease-in-out; }
+      header.header .burger-icon .nav-burger > span {
+        display: block;
+        position: absolute;
+        height: 3px;
+        width: 100%;
+        background: #333333;
+        opacity: 1;
+        left: 0;
+        transform: rotate(0deg);
+        transition: 0.25s ease-in-out; }
+        header.header .burger-icon .nav-burger > span:nth-child(1) {
+          top: 0;
+          transform-origin: left center; }
+        header.header .burger-icon .nav-burger > span:nth-child(2) {
+          top: 0;
+          bottom: 0;
+          margin: auto;
+          transform-origin: left center; }
+        header.header .burger-icon .nav-burger > span:nth-child(3) {
+          bottom: 0;
+          transform-origin: left center; }
+      header.header .burger-icon .nav-burger.open > span:nth-child(1) {
+        transform: rotate(45deg);
+        top: -3px;
+        left: 8px; }
+      header.header .burger-icon .nav-burger.open > span:nth-child(2) {
+        width: 0%;
+        opacity: 0; }
+      header.header .burger-icon .nav-burger.open > span:nth-child(3) {
+        transform: rotate(-45deg);
+        top: 20px;
+        left: 8px; }
   header.header .menu {
     position: fixed;
     top: 5.8rem;
@@ -559,10 +590,10 @@ header.header {
             font-size: 2rem; } }
       header.header .menu .menu-nav .active {
         border-bottom: 2.5px solid #7d4039; }
-        @media screen and (min-width: 768px) {
+        @media screen and (min-width: 1024px) {
           header.header .menu .menu-nav .active {
             color: #333333;
-            border: none; } }
+            border-bottom: none; } }
   header.header .menu.is-active {
     right: 0;
     pointer-events: auto; }
