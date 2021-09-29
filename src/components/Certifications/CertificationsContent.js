@@ -36,7 +36,6 @@ const CertificationsContent = () => {
           aria-label="Título de la página Cédulas Profesionales y Certificaciones"
         >
           <h2>CERTIFICACIONES</h2>
-          {/* <hr /> */}
           <span className="line-title"></span>
         </div>
 

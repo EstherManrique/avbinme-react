@@ -24,7 +24,6 @@ const AvaluosBienesInmuebles = () => {
           aria-label="Título de la página Inicio"
         >
           <h2>AVALÚOS</h2>
-         {/*  <hr /> */}
          <span className="line-title"></span>
         </div>
 

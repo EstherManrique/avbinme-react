@@ -6,7 +6,6 @@ const WeContent = () => {
       <section className="content-we" aria-label="Contenido de la sección de Nosotros">
       <div className="main-subtitle" role="region" aria-label="Título de la página Nosotros">
         <h2>NOSOTROS</h2>
-        {/* <hr /> */}
         <span className="line-title"></span>
       </div>
       <div className="container">
