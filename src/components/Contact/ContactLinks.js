@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import { Link } from "react-router-dom";
 
 const ContactLinks = () => {
   return (
@@ -33,9 +32,9 @@ const ContactLinks = () => {
                   />
                 </svg>
               </span>
-              <Link to="tel:5555889578" target="_blank" rel="noreferrer">
+              <a href="tel:5555889578" target="_blank" rel="noreferrer">
                 55 5588 9578
-              </Link>
+              </a>
             </div>
             <div className="contact">
               <span className="icon-cel-phone">
@@ -52,9 +51,9 @@ const ContactLinks = () => {
                   />
                 </svg>
               </span>
-              <Link to="tel:5529551257" target="_blank" rel="noreferrer">
+              <a href="tel:5529551257" target="_blank" rel="noreferrer">
                 55 2955 1257
-              </Link>
+              </a>
             </div>
             <div className="contact">
               <span className="icon-email">
@@ -71,13 +70,13 @@ const ContactLinks = () => {
                   />
                 </svg>
               </span>
-              <Link
-                to="mailto:aaaaa@avbinme.com.mx"
+              <a
+                href="mailto:aaaaa@avbinme.com.mx"
                 target="_blank"
                 rel="noreferrer"
               >
                 aaaaa@avbinme.com.mx
-              </Link>
+              </a>
             </div>
             <div className="contact">
               <span className="icon-linkedin">
@@ -94,9 +93,9 @@ const ContactLinks = () => {
                   />
                 </svg>
               </span>
-              <Link to="/" target="_blank">
+              <a href="/" target="_blank">
                 https://www.linkedin.com/in/avbinme/
-              </Link>
+              </a>
             </div>
           </div>
           <span className="text-circle"></span>
