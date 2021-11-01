@@ -17,8 +17,7 @@ const ServicesCards = () => {
               <div className="card-info">
                 <h2 className="card-title">Inmuebles</h2>
                 <p className="card-paragraph">
-                  Inmuebles Para estimar el valor de un inmueble para un
-                  propósito{" "}
+                  ¿Quieres saber el valor de cualquier tipo de inmueble?
                 </p>
                 <div className="card-button">
                   <button data-modal-id="inmuebles">
@@ -40,8 +39,7 @@ const ServicesCards = () => {
               <div className="card-info">
                 <h2 className="card-title">Maquinaria y Equipo</h2>
                 <p className="card-paragraph">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Recusandae, officiis.
+                  La importancia de conocer el valor de tus activos para la toma de decisiones
                 </p>
                 <div className="card-button">
                   <button data-modal-id="maquinaria-y-equipo">
@@ -60,15 +58,14 @@ const ServicesCards = () => {
                 />
               </div>
               <div className="card-info">
-                <h2 className="card-title">Opinión de Valor</h2>
+                <h2 className="card-title">Avalúos Judiciales</h2>
                 <p className="card-paragraph">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Recusandae, officiis.
+                  ¿Requieres de un Avalúo para una Controversia Judicial?
                 </p>
                 <div className="card-button">
-                  <button data-modal-id="opinion-de-valor">
+                  <button data-modal-id="avaluo-judicial">
                     <Link
-                      to="#opinion-de-valor"
+                      to="#avaluo-judicial"
                     >
                       LEER MÁS
                     </Link>
@@ -90,8 +87,7 @@ const ServicesCards = () => {
               <div className="card-info">
                 <h2 className="card-title">Justipreciación de Rentas</h2>
                 <p className="card-paragraph">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Recusandae, officiis.
+                  ¿Quieres saber cuál es el monto más apropiado para arrendamiento de un Bien Inmueble?
                 </p>
                 <div className="card-button">
                   <button data-modal-id="justipreciacion-de-rentas">
