@@ -49,8 +49,9 @@ section.services {
         @media screen and (min-width: $desktop-BP) {
           display: grid;
           grid-template-columns: repeat(2, 1fr);
-          grid-gap: 1rem 2rem;
-          padding-top: 2.5rem;
+          grid-gap: 1rem 3rem;
+          padding-top: 3.5rem;
+          padding-bottom: 3.7rem;
         }
 
         li {
@@ -92,9 +93,9 @@ section.services {
             background-image: url("../icons/007-analisis-de-mercado.svg");
           }
 
-          &.service-4 {
+          /* &.service-4 {
             background-image: url("../icons/009-estado-financiero.svg");
-          }
+          } */
 
           &.service-5 {
             background-image: url("../icons/activos-1.svg");
@@ -108,7 +109,7 @@ section.services {
             background-image: url("../icons/003-ruedas-dentadas.svg");
           }
 
-          &.service-8 {
+          /* &.service-8 {
             background-image: url("../icons/006-cadena-de-valor-1.svg");
           }
 
@@ -118,10 +119,10 @@ section.services {
 
           &.service-10 {
             background-image: url("../icons/012-casas-1.svg");
-          }
+          } */
 
           &.service-11 {
-            background-image: url("../icons/valor-1.svg");
+            background-image: url("../icons/justice-law-svgrepo-com.svg");
           }
         }
       }

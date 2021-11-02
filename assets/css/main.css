@@ -737,13 +737,28 @@ section.services {
         section.services .services-content .container .list-services {
           display: grid;
           grid-template-columns: repeat(2, 1fr);
-          grid-gap: 1rem 2rem;
-          padding-top: 2.5rem; } }
+          grid-gap: 1rem 3rem;
+          padding-top: 3.5rem;
+          padding-bottom: 3.7rem; } }
       section.services .services-content .container .list-services li {
         background-size: 1.8rem;
         background-position: left center;
         background-repeat: no-repeat;
-        padding-left: 3rem; }
+        padding-left: 3rem;
+        /* &.service-4 {
+          background-image: url("../icons/009-estado-financiero.svg");
+        } */
+          /* &.service-8 {
+            background-image: url("../icons/006-cadena-de-valor-1.svg");
+          }
+
+          &.service-9 {
+            background-image: url("../icons/005-buscar.svg");
+          }
+
+          &.service-10 {
+            background-image: url("../icons/012-casas-1.svg");
+          } */ }
         @media screen and (min-width: 768px) {
           section.services .services-content .container .list-services li {
             background-size: 2.5rem;
@@ -766,22 +781,14 @@ section.services {
           background-image: url("../icons/004-estadisticas.svg"); }
         section.services .services-content .container .list-services li.service-3 {
           background-image: url("../icons/007-analisis-de-mercado.svg"); }
-        section.services .services-content .container .list-services li.service-4 {
-          background-image: url("../icons/009-estado-financiero.svg"); }
         section.services .services-content .container .list-services li.service-5 {
           background-image: url("../icons/activos-1.svg"); }
         section.services .services-content .container .list-services li.service-6 {
           background-image: url("../icons/edificio-de-oficinas-1.svg"); }
         section.services .services-content .container .list-services li.service-7 {
           background-image: url("../icons/003-ruedas-dentadas.svg"); }
-        section.services .services-content .container .list-services li.service-8 {
-          background-image: url("../icons/006-cadena-de-valor-1.svg"); }
-        section.services .services-content .container .list-services li.service-9 {
-          background-image: url("../icons/005-buscar.svg"); }
-        section.services .services-content .container .list-services li.service-10 {
-          background-image: url("../icons/012-casas-1.svg"); }
         section.services .services-content .container .list-services li.service-11 {
-          background-image: url("../icons/valor-1.svg"); }
+          background-image: url("../icons/justice-law-svgrepo-com.svg"); }
 
 .cards-we {
  /* @media screen and (min-width: $tablet-BP) {
@@ -1069,7 +1076,7 @@ section.cards-services .container .cards-wrapper {
           .cards-modals .modal .modals-content .modal-info span.icon-maquinaria-y-equipo {
             background-image: url("../icons/003-ruedas-dentadas.svg"); }
           .cards-modals .modal .modals-content .modal-info span.icon-avaluo-judicial {
-            background-image: url("../icons/valor-1.svg"); }
+            background-image: url("../icons/justice-law-svgrepo-com.svg"); }
           .cards-modals .modal .modals-content .modal-info span.icon-justipreciacion-de-rentas {
             background-image: url("../icons/activos-1.svg"); }
           .cards-modals .modal .modals-content .modal-info span.icon-regimen-de-propiedad-en-condominio {
