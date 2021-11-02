@@ -192,7 +192,7 @@ const ServicesCards = () => {
                   Evaluación de Proyectos Inmobiliarios
                 </h2>
                 <p className="card-paragraph">
-                  !Antes de tomar la decisión de invertir en un proyecto es necesario evaluarlo¡
+                  !Antes de tomar la decisión de invertir en un proyecto, es necesario evaluarlo¡
                 </p>
                 <div className="card-button">
                   <button data-modal-id="evaluacion-de-proyectos-inmobliarios">

@@ -39,16 +39,16 @@ const AvaluosBienesInmuebles = () => {
                 </Link>
               </li>
               <li className="service-11" id="service-11">
-                <Link to="/servicios#opinion-de-valor">Opinión de Valor</Link>
+                <Link to="/servicios#avaluo-judicial">Avalúos Judiciales</Link>
               </li>
               <li className="service-5" id="service-5">
                 <Link to="/servicios#justipreciacion-de-rentas">
                   Justipreciación de Rentas
                 </Link>
               </li>
-              <li className="service-10" id="service-10">
+              {/* <li className="service-10" id="service-10">
                 <Link to="/servicios#avaluo-maestro">Avalúo Maestro</Link>
-              </li>
+              </li> */}
               <li className="service-6" id="service-6">
                 <Link to="/servicios#regimen-de-propiedad-en-condominio">
                   Régimen de Propiedad en Condominio
@@ -64,7 +64,7 @@ const AvaluosBienesInmuebles = () => {
                   Evaluación de Proyectos Inmobiliarios
                 </Link>
               </li>
-              <li className="service-8" id="service-8">
+              {/* <li className="service-8" id="service-8">
                 <Link to="/servicios#estudios-de-factibilidad">
                   Estudios de Factibilidad
                 </Link>
@@ -78,7 +78,7 @@ const AvaluosBienesInmuebles = () => {
                 <Link to="/servicios#reexpresion-de-estados-financieros">
                   Reexpresión de Estados Financieros
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
