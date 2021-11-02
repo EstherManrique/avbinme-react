@@ -19,41 +19,41 @@ const services = {
     description:
       "<b>Obtenemos el valor de renta de un Bien Inmueble que necesites para:<br> Adquirirlo en renta.<br>Darlo en renta.<br>Controversia Jurídica,</b> para cobro de rentas debengadas y no pagadas (en cualquier tipo de juicio).",
   },
-  "avaluo-maestro": {
+  /* "avaluo-maestro": {
     title: "Avalúo Maestro",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde veniam sunt aperiam, suscipit, omnis alias quibusdam doloremque ipsa voluptatum error reprehenderit eveniet magni eaque cumque repudiandae harum? Eveniet, est tempora!",
-  },
+  }, */
   "regimen-de-propiedad-en-condominio": {
     title: "Régimen de Propiedad en Condominio",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde veniam sunt aperiam, suscipit, omnis alias quibusdam doloremque ipsa voluptatum error reprehenderit eveniet magni eaque cumque repudiandae harum? Eveniet, est tempora!",
+      "<b>Condominio:</b> Inmueble cuya propiedad pertenece proindiviso a varias personas, que reúnen las condiciones y características establecidas en el código civil para la CDMX.<br><b>Se puede elaborar un Regimen de Propiedad en Condominio a inmuebles nuevos o usados.</b>",
   },
   "negocios-en-marcha": {
     title: "Negocios en Marcha",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde veniam sunt aperiam, suscipit, omnis alias quibusdam doloremque ipsa voluptatum error reprehenderit eveniet magni eaque cumque repudiandae harum? Eveniet, est tempora!",
+      "<b>Lo quieres vender ó simplamente saber el valor estimado de tu negocio.</b><br><b>¿Cuánto valen tus bienes?<br>¿Cuánto ganará tu empresa en los próximos años?</b>",
   },
   "evaluacion-de-proyectos-inmobliarios": {
     title: "Evaluación de Proyectos Inmobiliarios",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde veniam sunt aperiam, suscipit, omnis alias quibusdam doloremque ipsa voluptatum error reprehenderit eveniet magni eaque cumque repudiandae harum? Eveniet, est tempora!",
+      "<b>La evaluación del proyecto es una parte fundamental para decidir la conveniencia ó no del proyecto.</b>",
   },
-  "estudios-de-factibilidad": {
+  /* "estudios-de-factibilidad": {
     title: "Estudios de Factibilidad",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde veniam sunt aperiam, suscipit",
-  },
-  "analisis-de-inversion-inmobiliaria": {
+  }, */
+  /* "analisis-de-inversion-inmobiliaria": {
     title: "Análisis de Inversión Inmobiliaria",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde veniam sunt aperiam, suscipit, omnis alias quibusdam doloremque ipsa voluptatum error reprehenderit eveniet magni eaque cumque repudiandae harum? Eveniet, est tempora!",
-  },
-  "reexpresion-de-estados-financieros": {
+  }, */
+  /* "reexpresion-de-estados-financieros": {
     title: "Reexpresión de Estados Financieros",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde veniam sunt aperiam, suscipit, omnis alias quibusdam doloremque ipsa voluptatum error reprehenderit eveniet magni eaque cumque repudiandae harum? Eveniet, est tempora!",
-  },
+  }, */
 };
 
 export { services }

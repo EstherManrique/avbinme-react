@@ -39,7 +39,7 @@ const ServicesCards = () => {
               <div className="card-info">
                 <h2 className="card-title">Maquinaria y Equipo</h2>
                 <p className="card-paragraph">
-                  La importancia de conocer el valor de tus activos para la toma de decisiones
+                  !La importancia de conocer el valor de tus activos para la toma de decisiones¡
                 </p>
                 <div className="card-button">
                   <button data-modal-id="maquinaria-y-equipo">
@@ -100,7 +100,7 @@ const ServicesCards = () => {
                 </div>
               </div>
             </div>
-            <div className="card-services">
+            {/* <div className="card-services">
               <div className="card-image">
                 <img
                   src={
@@ -123,7 +123,7 @@ const ServicesCards = () => {
                   </button>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="card-services">
               <div className="card-image">
                 <img
@@ -139,8 +139,7 @@ const ServicesCards = () => {
                   Régimen de Propiedad en Condominio
                 </h2>
                 <p className="card-paragraph">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Recusandae, officiis.
+                  !Dale certeza Jurídica a tú propiedad¡
                 </p>
                 <div className="card-button">
                   <button data-modal-id="regimen-de-propiedad-en-condominio">
@@ -166,8 +165,7 @@ const ServicesCards = () => {
               <div className="card-info">
                 <h2 className="card-title">Negocios en Marcha</h2>
                 <p className="card-paragraph">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Recusandae, officiis.
+                  ¿Necesitas saber cuál es el valor de tu negocio?
                 </p>
                 <div className="card-button">
                   <button data-modal-id="negocios-en-marcha">
@@ -194,8 +192,7 @@ const ServicesCards = () => {
                   Evaluación de Proyectos Inmobiliarios
                 </h2>
                 <p className="card-paragraph">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Recusandae, officiis.
+                  !Antes de tomar la decisión de invertir en un proyecto es necesario evaluarlo¡
                 </p>
                 <div className="card-button">
                   <button data-modal-id="evaluacion-de-proyectos-inmobliarios">
@@ -208,7 +205,7 @@ const ServicesCards = () => {
                 </div>
               </div>
             </div>
-            <div className="card-services">
+            {/* <div className="card-services">
               <div className="card-image">
                 <img
                   src={
@@ -234,8 +231,8 @@ const ServicesCards = () => {
                   </button>
                 </div>
               </div>
-            </div>
-            <div className="card-services">
+            </div> */}
+            {/* <div className="card-services">
               <div className="card-image">
                 <img
                   src={
@@ -263,8 +260,8 @@ const ServicesCards = () => {
                   </button>
                 </div>
               </div>
-            </div>
-            <div className="card-services">
+            </div> */}
+            {/* <div className="card-services">
               <div className="card-image">
                 <img
                   src={
@@ -292,7 +289,7 @@ const ServicesCards = () => {
                   </button>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

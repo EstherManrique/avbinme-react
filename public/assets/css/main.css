@@ -1047,7 +1047,19 @@ section.cards-services .container .cards-wrapper {
           height: 4rem;
           background-size: cover;
           background-repeat: no-repeat;
-          margin-top: 2rem; }
+          margin-top: 2rem;
+          /* &.icon-avaluo-maestro {
+            background-image: url("../icons/012-casas-1.svg");
+          } */
+          /* &.icon-estudios-de-factibilidad {
+            background-image: url("../icons/006-cadena-de-valor-1.svg");
+          } */
+          /* &.icon-analisis-de-inversion-inmobiliaria {
+            background-image: url("../icons/005-buscar.svg");
+          } */
+          /* &.icon-reexpresion-de-estados-financieros {
+            background-image: url("../icons/009-estado-financiero.svg");
+          } */ }
           @media screen and (min-width: 768px) {
             .cards-modals .modal .modals-content .modal-info span {
               width: 6rem;
@@ -1060,20 +1072,12 @@ section.cards-services .container .cards-wrapper {
             background-image: url("../icons/valor-1.svg"); }
           .cards-modals .modal .modals-content .modal-info span.icon-justipreciacion-de-rentas {
             background-image: url("../icons/activos-1.svg"); }
-          .cards-modals .modal .modals-content .modal-info span.icon-avaluo-maestro {
-            background-image: url("../icons/012-casas-1.svg"); }
           .cards-modals .modal .modals-content .modal-info span.icon-regimen-de-propiedad-en-condominio {
             background-image: url("../icons/edificio-de-oficinas-1.svg"); }
           .cards-modals .modal .modals-content .modal-info span.icon-negocios-en-marcha {
             background-image: url("../icons/004-estadisticas.svg"); }
           .cards-modals .modal .modals-content .modal-info span.icon-evaluacion-de-proyectos-inmobliarios {
             background-image: url("../icons/007-analisis-de-mercado.svg"); }
-          .cards-modals .modal .modals-content .modal-info span.icon-estudios-de-factibilidad {
-            background-image: url("../icons/006-cadena-de-valor-1.svg"); }
-          .cards-modals .modal .modals-content .modal-info span.icon-analisis-de-inversion-inmobiliaria {
-            background-image: url("../icons/005-buscar.svg"); }
-          .cards-modals .modal .modals-content .modal-info span.icon-reexpresion-de-estados-financieros {
-            background-image: url("../icons/009-estado-financiero.svg"); }
         .cards-modals .modal .modals-content .modal-info h2 {
           font-size: 2.4rem;
           font-weight: 700;
